@@ -8,5 +8,8 @@ Además quisimos probar que nuestro motor efectivamente simula lo que está en e
 
 En este caso, se establecen para el gas condiciones iniciales en la energía y se analizan los perfiles hidrodinamicos de la simulación. Pudimos reproducir estos resultados utilizando nuestro motor. Como en este paper se introduce una condición inicial en la energía $E(x,0)$, se tuvo que escribir otro código, manteniendo el motor de la simulación (`ahp_engine_c.py`), para poder establecer bien la condición inicial y estudiar los resultados (`blast_ahp.py`).
 
-Las imagenes de los analisis se encuentran en las carpetas `\figuras-gas03` y `\figuras-blast` respectivamente. 
+Las imagenes de los analisis se encuentran en las carpetas `\figuras-gas03_r2` (r5 y r10 dependiendo de la relación de masas)y `\figuras-blast` respectivamente. 
+
+Además, se repitio el analisis para gases con diferentes relaciones de masas $r = m_1/m_2$, los resultados de este analisis estan en `\figuras_gas03_r2_con_mass_ratios`. 
+
 
