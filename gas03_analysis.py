@@ -757,7 +757,7 @@ def main():
     N_BINS = 40
     SEEDS = list(range(40))
     SELECTED_TIMES = (0, 100, 200, 300, 400)
-    MASS_RATIOS = (1.0, 1.5, 2.0, 3.0, 5.0)
+    MASS_RATIOS = (1.0, 2.0, 5.0, 10.0)
     MR_SEEDS = list(range(10))
 
     if args.quick:
