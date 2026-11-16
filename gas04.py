@@ -1025,15 +1025,15 @@ def main():
     print(f"  Euler lineal: c={th['c']:.4f}, omega={th['w']:.4f}, periodo={th['period']:.2f}")
 
     print("\nFiguras:")
-    fig_trajectories(ens, PARAMS["L"], args.out, args.show)
-    fig_conservation(ens, args.out, args.show)
-    fig_maps(ens, args.out, args.show)
-    fig_profiles(ens, PARAMS, SELECTED_TIMES, args.out, args.show)
-    fig_amplitudes(ens, th, args.out, args.show)
-    fig_entropy_decay(ens, args.out, args.show)
-    fig_spectrum(ens, th, args.out, args.show)
-    fig_velocity_distribution(ens, args.out, args.show)
-    fig_snapshots_heat(ens, args.out, args.show)
+    #fig_trajectories(ens, PARAMS["L"], args.out, args.show)
+    #fig_conservation(ens, args.out, args.show)
+    #fig_maps(ens, args.out, args.show)
+    #fig_profiles(ens, PARAMS, SELECTED_TIMES, args.out, args.show)
+    #fig_amplitudes(ens, th, args.out, args.show)
+    #fig_entropy_decay(ens, args.out, args.show)
+    #fig_spectrum(ens, th, args.out, args.show)
+    #fig_velocity_distribution(ens, args.out, args.show)
+    #fig_snapshots_heat(ens, args.out, args.show)
 
     np.savez_compressed(
         os.path.join(args.out, "resultados_ensemble.npz"),
